@@ -31,7 +31,7 @@ const SalesOrder = () => {
     };
 
     useEffect(() => {
-        fetch('http://103.206.139.246:8081/AccountMaster', options)
+        fetch('https://thomasaccapp.onrender.com/AccountMaster', options)
             .then(res => res.json())
             .then(Account => setAcc(Account))
             .catch(err => console.log(err))
@@ -51,7 +51,7 @@ const SalesOrder = () => {
     }, [])
 
     useEffect(() => {
-        fetch('http://103.206.139.246:8081/ItemMaster', options)
+        fetch('https://thomasaccapp.onrender.com/ItemMaster', options)
             .then(res => res.json())
             .then(ItemMst => setItemMst(ItemMst))
             .catch(err => console.log(err))

@@ -32,7 +32,7 @@ const SalesLRPending = () => {
     };
 
     useEffect(() => {
-        fetch('http://103.206.139.246:8081/AccountMaster', options)
+        fetch('https://thomasaccapp.onrender.com/AccountMaster', options)
             .then(res => res.json())
             .then(Account => setAcc(Account))
             .catch(err => console.log(err))
@@ -101,7 +101,7 @@ const SalesLRPending = () => {
                 }),
             };
 
-            var sasdata = await fetch('http://103.206.139.246:8081/Sales_LR_Pending', options)
+            var sasdata = await fetch('https://thomasaccapp.onrender.com/Sales_LR_Pending', options)
                 .then(res => res.json())
                 .catch(err => console.log(err))
             sasdata = sasdata.sort((a, b) => new Date(a.acdate) - new Date(b.acdate));

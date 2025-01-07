@@ -36,7 +36,7 @@ const LoginForm = ({ onLogin }) => {
       },
       body: JSON.stringify({ "ipaddress": ipaddress, "port": port, "database": selectedDBOption.value }),
     };
-    const resp_comp = await fetch('http://103.206.139.246:8081/companymaster', options_comp)
+    const resp_comp = await fetch('https://thomasaccapp.onrender.com/companymaster', options_comp)
       .then(res => res.json())
       .catch(err => console.log(err))
     if (resp_comp.length > 0) {
@@ -107,7 +107,7 @@ const LoginForm = ({ onLogin }) => {
         body: JSON.stringify({ "ipaddress": ipaddress, "port": port }),
       };
       //'http://103.206.139.246:8081/connect'
-      const response = await fetch('http://103.206.139.246:8081/connect', options)
+      const response = await fetch('https://thomasaccapp.onrender.com/connect', options)
         .then(res => res.json())
         //.then(Database => setDatabase(Database))
         .catch(err => console.log(err))

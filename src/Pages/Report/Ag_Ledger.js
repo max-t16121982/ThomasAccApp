@@ -32,7 +32,7 @@ const AG_Ledger = () => {
   };
 
   useEffect(() => {
-    fetch('http://103.206.139.246:8081/AccountMaster', options)
+    fetch('https://thomasaccapp.onrender.com/AccountMaster', options)
       .then(res => res.json())
       .then(Account => setAcc(Account))
       .catch(err => console.log(err))
@@ -131,7 +131,7 @@ const AG_Ledger = () => {
         }),
       };
 
-      var sasdata = await fetch('http://103.206.139.246:8081/ag_sas', options)
+      var sasdata = await fetch('https://thomasaccapp.onrender.com/ag_sas', options)
         .then(res => res.json())
         .catch(err => console.log(err))
       //sasdata = sasdata.sort((a, b) => b.slips - a.slips && new Date(a.acdate) - new Date(b.acdate));

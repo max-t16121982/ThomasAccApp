@@ -34,7 +34,7 @@ const MillOutstanding = () => {
     };
 
     useEffect(() => {
-        fetch('http://103.206.139.246:8081/AccountMaster', options)
+        fetch('https://thomasaccapp.onrender.com/AccountMaster', options)
             .then(res => res.json())
             .then(Account => setAcc(Account))
             .catch(err => console.log(err))
@@ -123,7 +123,7 @@ const MillOutstanding = () => {
                 }),
             };
 
-            var sasdata = await fetch('http://103.206.139.246:8081/MillOutstanding', options)
+            var sasdata = await fetch('https://thomasaccapp.onrender.com/MillOutstanding', options)
                 .then(res => res.json())
                 .catch(err => console.log(err))
             sasdata = sasdata.sort((a, b) => new Date(a.acdate) - new Date(b.acdate));

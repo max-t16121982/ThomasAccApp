@@ -37,14 +37,14 @@ const EntryForm = () => {
   };
 
   useEffect(() => {
-    fetch('http://103.206.139.246:8081/AccountMaster', options)
+    fetch('https://thomasaccapp.onrender.com/AccountMaster', options)
       .then(res => res.json())
       .then(Account => setAcc(Account))
       .catch(err => console.log(err))
   }, [])
 
   useEffect(() => {
-    fetch('http://103.206.139.246:8081/companymaster', options)
+    fetch('https://thomasaccapp.onrender.com/companymaster', options)
       .then(res => res.json())
       .then(Company => setCompany(Company))
       .catch(err => console.log(err))

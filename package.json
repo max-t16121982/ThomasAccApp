@@ -1,6 +1,6 @@
 {
+  "homepage": "http://max-t16121982.github.io/ThomasAccApp",
   "name": "account_app",
-  "homepage": "https://www.softaccounts.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,6 +23,8 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
