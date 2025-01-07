@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ThomasAccApp/static/css/main.2b0afb4e.chunk.css",
+    "main.js": "/ThomasAccApp/static/js/main.6d67d338.chunk.js",
+    "main.js.map": "/ThomasAccApp/static/js/main.6d67d338.chunk.js.map",
+    "runtime-main.js": "/ThomasAccApp/static/js/runtime-main.9fda3e06.js",
+    "runtime-main.js.map": "/ThomasAccApp/static/js/runtime-main.9fda3e06.js.map",
+    "static/css/2.1fb90f1e.chunk.css": "/ThomasAccApp/static/css/2.1fb90f1e.chunk.css",
+    "static/js/2.c2ad8b1b.chunk.js": "/ThomasAccApp/static/js/2.c2ad8b1b.chunk.js",
+    "static/js/2.c2ad8b1b.chunk.js.map": "/ThomasAccApp/static/js/2.c2ad8b1b.chunk.js.map",
+    "static/js/3.7d224c89.chunk.js": "/ThomasAccApp/static/js/3.7d224c89.chunk.js",
+    "static/js/3.7d224c89.chunk.js.map": "/ThomasAccApp/static/js/3.7d224c89.chunk.js.map",
+    "index.html": "/ThomasAccApp/index.html",
+    "static/css/2.1fb90f1e.chunk.css.map": "/ThomasAccApp/static/css/2.1fb90f1e.chunk.css.map",
+    "static/css/main.2b0afb4e.chunk.css.map": "/ThomasAccApp/static/css/main.2b0afb4e.chunk.css.map",
+    "static/js/2.c2ad8b1b.chunk.js.LICENSE.txt": "/ThomasAccApp/static/js/2.c2ad8b1b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ThomasAccApp/static/media/logo.6ce24c58.svg",
+    "static/media/whatsapp.e72f1f51.png": "/ThomasAccApp/static/media/whatsapp.e72f1f51.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fda3e06.js",
+    "static/css/2.1fb90f1e.chunk.css",
+    "static/js/2.c2ad8b1b.chunk.js",
+    "static/css/main.2b0afb4e.chunk.css",
+    "static/js/main.6d67d338.chunk.js"
+  ]
+}
